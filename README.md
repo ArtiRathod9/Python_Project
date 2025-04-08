@@ -47,9 +47,11 @@ monthly_sales.plot(kind='line', title='Sales Trend Over Months')
 - A line chart visualizes monthly sales trends.
 - Insight: Seasonal patterns and monthly variations are clearly highlighted.
 
-- 📈 Visualization Summary: Sales Trend Over Months
+# 📈 Visualization Summary: Sales Trend Over Months
 - This line chart titled "Sales Trend Over Months" displays the total sales across each month of the year.
+---
 ![stov](stov.png)
+---
 
 
 # 🔍 Key Observations:
