@@ -68,24 +68,19 @@ month_order = ['January', 'February', 'March', 'April', 'May', 'June',
 monthly_sales = monthly_sale.reindex(month_order)
 monthly_sales.plot(kind='line', title='Sales Trend Over Months')
 ```
-- A line chart visualizes monthly sales trends.
-- Insight: Seasonal patterns and monthly variations are clearly highlighted.
-
-# 📈 Visualization Summary: Sales Trend Over Months
+ 📈 Visualization Summary: Sales Trend Over Months
 - This line chart titled "Sales Trend Over Months" displays the total sales across each month of the year.
 ---
 ![stov](stov.png)
 ---
-
-
-# 🔍 Key Observations:
+🔍 Key Observations:
 -January to August: Sales remained relatively steady with minor fluctuations, staying below 10 million.
 - September: There was a sharp increase, indicating a strong surge in sales.
 - October: Sales peaked dramatically, reaching the highest point, over 22.5 million.
 - November: There was a drop, but sales remained significantly higher than most earlier months.
 - December (if missing): Either not available or excluded from the dataset.
 
-# 📊 Insights:
+📊 Insights:
 - The significant growth from August to October could indicate:
 - A seasonal demand (e.g., holidays, back-to-school, or promotional events).
 - A successful marketing campaign or product launch.
@@ -103,6 +98,7 @@ units_by_country.plot(kind='bar', title='Units Sold by Country')
 
 - Bar chart reveals the country with the highest sales volume.
 - Insight: Enables targeted regional strategies.
+---
 ![tpcus](tpcus.png)
 ---
 
