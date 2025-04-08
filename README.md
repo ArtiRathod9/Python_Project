@@ -31,7 +31,32 @@ profit_by_segment.plot(kind='bar', title='Total Profit by Segment')
 
 - A bar chart shows the total profit by segment.
 - Insight: The visualization clearly identifies the most profitable segment.
+---
+  ![tps](tps.png)
+---
+- This section provides a visual analysis of the **Total Profit by Segment** to understand which business segments contribute the most to overall profitability.
+## 📊 Key Observations
 
+1. **Government Segment**:
+   - Stands out as the **most profitable** by a large margin.
+   - Total profit is well above **10 million**, significantly outperforming all other segments.
+
+2. **Small Business**:
+   - The **second most profitable** segment.
+   - Contributes a strong portion of the overall profit, though far behind the Government sector.
+
+3. **Channel Partners**:
+   - Moderate profitability, contributing a **smaller but healthy share** of total profits.
+
+4. **Midmarket** and **Enterprise**:
+   - **Lowest performing** segments in terms of profit.
+   - May require strategic evaluation—either due to higher costs or lower revenue generation.
+
+## 🔍 Insights
+
+- The **Government sector** appears to be a **core revenue driver**, suggesting a strong foothold or effective strategies in that area.
+- **Small Businesses** also present good potential, possibly due to volume or targeted offerings.
+- **Enterprise and Midmarket** segments may need reevaluation for optimization or support.
 ---
 
 ## 3. 📈 Sales Trend Over Months
@@ -43,7 +68,6 @@ month_order = ['January', 'February', 'March', 'April', 'May', 'June',
 monthly_sales = monthly_sale.reindex(month_order)
 monthly_sales.plot(kind='line', title='Sales Trend Over Months')
 ```
-
 - A line chart visualizes monthly sales trends.
 - Insight: Seasonal patterns and monthly variations are clearly highlighted.
 
@@ -79,7 +103,7 @@ units_by_country.plot(kind='bar', title='Units Sold by Country')
 
 - Bar chart reveals the country with the highest sales volume.
 - Insight: Enables targeted regional strategies.
-
+![tpcus](tpcus.png)
 ---
 
 ## 5. 🛍️ Compare Sales Across Products
