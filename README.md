@@ -1,4 +1,4 @@
-# 📊 Python Analysis and Code – Financial Dataset Summary
+# 📊 Python Analysis and Code – Global Financial Dataset Summary
 
 This analysis is based on a dataset containing financial data of products across different countries and segments. The goal is to derive business insights and visualize performance trends using Python.
 
