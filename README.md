@@ -1,6 +1,6 @@
 # 📊 Python Analysis and Code – Global Sales Analysis Summary
 
-This analysis is based on a dataset containing financial data of products across different countries and segments. The goal is to derive business insights and visualize performance trends using Python.
+This analysis is based on a dataset containing financial data of products across different countries and segments(Global Sales Analysis). The goal is to derive business insights and visualize performance trends using Python.
 
 ---
 
